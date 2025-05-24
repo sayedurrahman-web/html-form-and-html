@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html form and table</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>table</h1>
+    <table border="2">
+        <caption><strong>Stock count</strong></caption>
+       <tr> <th>ID</th>
+        <th>Item</th>
+        <th>Category</th>
+        <th>no.of items</th>
+        </tr>
+        <tr>
+            <td>1001</td>
+            <td>carrot</td>
+            <td>vegetables</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td>1002</td>
+            <td>Apple</td>
+            <td>fruits</td>
+            <td>150</td>
+        </tr>
+        <tr>
+            <td>1003</td>
+            <td>cherry</td>
+            <td>fruits</td>
+            <td>112</td>
+        </tr>
+        <tr>
+            <td>1004</td>
+            <td>garlic</td>
+            <td>vegetables</td>
+            <td>130</td>
+        </tr>
+        <tr>
+            <td>1004</td>
+            <td>Onion</td>
+            <td>vegetables</td>
+            <td>180</td>
+            
+        </tr>
+    </table>
+    <h2>Html form</h2><hr>
+    <form action="#">
+        <p style="text-align: center;">Registration form</p>
+    <fieldset>
+    <legend>Personalia</legend>
+    <label for="name">First name</label><br>
+    <input type="text" id="name" name="name" placeholder="Sayedur" required><br>
+    <label for="name">Last name</label><br>
+    <input type="text" id="name" name="name" placeholder="Rahman" required><br>
+ <label for="student id">student id number</label><br>
+ <input type="number" id="number" required placeholder="123456"><br>
+    <label for="email">Email</label><br>
+ <input type="email" id="email" required placeholder="sayedur****@gamil.com" ><br>
+ <label for="password">password</label><br>
+ <input type="password" id="password" required placeholder="******"><br><br>
+ <textarea name="comments" id="comments" rows="8" cols="25" placeholder="please write your comments"></textarea><br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="reset">
+  </fieldset>
+</form>
+</body>
+</html>
